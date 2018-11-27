@@ -5,13 +5,13 @@
 }
 
 .main-title-text-line {
-  font-size: 80px;
+  font-size: 8vw;
   font-weight: bold;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
   font-family: $roboto;
   letter-spacing: 3px;
-  transform: translate(-1100px);
+  transform: translate(-100vw);
 }
 
 .main-title-text-line-appear {
@@ -20,8 +20,8 @@
 }
 
 .main-title-text {
-  padding-top: 300px;
-  padding-left: 300px;
+  padding-top: 10vw;
+  padding-left: 10vw;
 }
 
 
