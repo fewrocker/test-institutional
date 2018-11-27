@@ -44,7 +44,7 @@ setTimeout(function(){
 
 //Scroll solutions scroll-in
 window.addEventListener('scroll', function() {
-  if (window.pageYOffset > 260) {
+  if (window.pageYOffset > 240) {
     Array.prototype.forEach.call(solutionCards, card => {
       card.classList.add("come-in");
     });
@@ -53,7 +53,7 @@ window.addEventListener('scroll', function() {
 
 //Scroll team scroll-in first row
 window.addEventListener('scroll', function() {
-  if (window.pageYOffset > 780) {
+  if (window.pageYOffset > 740) {
     Array.prototype.forEach.call(teamMembersFirstRow, card => {
       card.classList.add("come-in");
     });
@@ -62,7 +62,7 @@ window.addEventListener('scroll', function() {
 
 //Scroll team scroll-in second row
 window.addEventListener('scroll', function() {
-  if (window.pageYOffset > 1080) {
+  if (window.pageYOffset > 980) {
     Array.prototype.forEach.call(teamMembersSecondRow, card => {
       card.classList.add("come-in");
     });
