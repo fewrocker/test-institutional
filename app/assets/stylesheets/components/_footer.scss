@@ -19,8 +19,6 @@
   color: rgba(220,220,220,0.7);
 }
 
-/*Footer list*/
-
 .footer-lists {
   margin-top: 2vh;
   display: flex;
@@ -50,4 +48,20 @@
 
 .copyright-text {
   margin-top: 4vh;
+}
+
+//Mobile changes
+@media (max-width: 800px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+
+  .copyright-text p {
+    margin-bottom: 40px;
+  }
+
+  .footer-container {
+    margin: 0 10vw;
+    padding: 10px 0;
+  }
 }

@@ -1,6 +1,15 @@
-.wrapper-homepage-solutions {
+@media (min-width: 800px) {
+  .wrapper-homepage-solutions {
   height-min: 150vh;
   padding: 5vh 18vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .wrapper-homepage-solutions {
+  height-min: 150vh;
+  padding: 5vh 5vw;
+  }
 }
 
 .container-homepage-solutions {
@@ -70,7 +79,6 @@
 }
 
 .conheca-mais-btn {
-  width: 20vw;
   height: 5vh;
   margin-top: 2vh;
   display: flex;
@@ -86,6 +94,18 @@
     background-color: rgba(150,150,150,1);
     color: white;
     transition: 225ms ease;
+  }
+}
+
+@media (min-width: 720px) {
+  .conheca-mais-btn {
+    width: 20vw;
+  }
+}
+
+@media (max-width: 720px) {
+  .conheca-mais-btn {
+    width: 60vw;
   }
 }
 
